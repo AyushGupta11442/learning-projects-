@@ -1,0 +1,32 @@
+html, body{
+
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+.container{
+    display: flex;
+
+    flex-direction : column;
+    justify-content: center;
+    align-items: center;
+    
+    .cont{
+        border: white 15px solid;
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+
+#main-heading{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.list-items{
+    background-color: white;
+    margin: 1rem;
+    border: #182848;
+    border-radius: 10px;
+}
